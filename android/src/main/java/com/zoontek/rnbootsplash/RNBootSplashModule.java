@@ -58,8 +58,8 @@ public class RNBootSplashModule extends ReactContextBaseJavaModule implements Li
     LinearLayout layout = new LinearLayout(activity);
     ImageView view = new ImageView(activity);
 
-    view.setImageResource(mDrawableResId);
     view.setScaleType(ImageView.ScaleType.CENTER_CROP);
+    view.setImageResource(mDrawableResId);
     layout.setId(R.id.bootsplash_layout_id);
     layout.setLayoutTransition(null);
     layout.setOrientation(LinearLayout.VERTICAL);
